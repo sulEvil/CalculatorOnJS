@@ -1,0 +1,56 @@
+.calculator {
+    background: transparent;
+    width: 33vw;
+    height: 46vh;
+}
+.wrapper {
+    margin: 0 auto;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+}
+.main {
+    margin: 0 auto ;
+    margin-top: 5px;
+    width: 220px;
+}
+.display input {
+    background: transparent;
+    margin: 0 0 25px 5px;
+    overflow: hidden;
+    width: 270px;
+    height: 50px;
+    font-size: 24px;
+    border: white 3px solid;
+    outline:none;
+}
+.buttons input {
+    background: transparent;
+    border: white 3px solid;
+    margin: 5px 5px;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    border-radius: 3px;
+    font-size: 24px;
+}
+.calc_plus_button {
+    margin-top: 14px;
+    height: 120px;
+}
+
+@media screen and (max-width: 860px) {
+    .wrapper {
+        margin: 0 auto;
+        overflow: visible;
+        width: 100%;
+        height: 100%;
+    }
+    .main {
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        z-index: 2;
+    }
+}
